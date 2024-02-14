@@ -1,62 +1,67 @@
+body {
+    background-color: var(--DarkGrey);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    width: 100%;
+    height: 100vh;
+}
 
+:root {
 
-body{
-
-    background-color:var(--DarkGrey);
-      font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-      font-variation-settings:
-        "slnt" 0;
-        width: 100%;
-        height: 100vh;
-    
-    }
-    :root {
-    
     --White: hsl(0, 0%, 100%);
     --Grey: hsl(0, 0%, 20%);
     --DarkGrey: hsl(0, 0%, 12%);
     --Black: hsl(0, 0%, 8%);
-    }
-    .attribution {
-        font-size: 11px;
-        text-align: center;
-        color: var(--White);
-      }
-    
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-        color: var(--White);
-    
-      }
-      .main-container
-      {
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 150px;
-        gap: space-between;
-      }
-      img{
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-      }
-      p{
-        color: var(--White);
-        font-size: 14px;
-      }
-      h3{
-        color: var(--White);
-      }
-      span{
-        font-size: 11px;
-        color: rgb(123, 219, 123);
-      }
-      .frontend{
-        color: wheat;
-      }
+}
+
+.attribution {
+    bottom:0px;
+    font-size: 11px;
+    text-align: center;
+    color: var(--White);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    color: var(--White);
+
+}
+
+.main-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    gap: 22px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+p {
+    color: var(--White);
+    font-size: 14px;
+}
+
+h1 {
+    color: var(--White);
+}
+
+span {
+    margin-left: 40px;
+    font-size: 14px;
+    color: rgb(123, 219, 123);
+}
+
+.frontend {
+    color: wheat;
+}
