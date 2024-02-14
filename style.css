@@ -2,7 +2,7 @@ body {
     background-color: var(--DarkGrey);
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-variation-settings:
     "slnt" 0;
@@ -38,12 +38,12 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 200px;
-    gap: 22px;
+    gap: 15px;
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 
@@ -52,13 +52,14 @@ p {
     font-size: 14px;
 }
 
-h1 {
+h2 {
+    margin-left: 10px;
     color: var(--White);
 }
 
 span {
-    margin-left: 40px;
-    font-size: 14px;
+    margin-left: 25px;
+    font-size: 13px;
     color: rgb(123, 219, 123);
 }
 
